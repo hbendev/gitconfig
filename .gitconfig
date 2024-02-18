@@ -1,0 +1,13 @@
+# default global configuration file path ~/.gitignore
+[user]
+	name = Bendegúz Hajnal
+[init]
+	defaultBranch = main
+[branch]
+	sort = -committerdate # https://git-scm.com/docs/git-for-each-ref, https://jvns.ca/blog/2024/02/16/popular-git-config-options/
+[help]
+	autocorrect = prompt # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_help_autocorrect
+[transfer]
+	fsckobjects = true # https://gist.github.com/mbbx6spp/14b86437e794bffb4120
+[fetch]
+	fsckobjects = true # https://gist.github.com/mbbx6spp/14b86437e794bffb4120
