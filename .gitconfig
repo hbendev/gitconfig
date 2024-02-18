@@ -11,3 +11,4 @@
 	fsckobjects = true # https://gist.github.com/mbbx6spp/14b86437e794bffb4120
 [fetch]
 	fsckobjects = true # https://gist.github.com/mbbx6spp/14b86437e794bffb4120
+	parallel = 0 # https://git-scm.com/docs/git-fetch#Documentation/git-fetch.txt-fetchparallel
